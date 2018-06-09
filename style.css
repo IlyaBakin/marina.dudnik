@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+.addresplugin__main input {
+	padding: 6px 5px 6px 5px;
+	outline: 0px;
+	width: 100%;
+}
+.addresplugin__addresResultList ul {
+	list-style: none;
+	padding: 0px;
+	margin-top: 0px;
+	width: 100%;
+}
+.addresplugin__addresResultList ul li {
+	cursor: pointer;
+	width: 100%;
+	padding: 6px 5px 6px 5px;
+	border: 1px solid #03A9F4;
+	border-top: 0px;
+}
+.addresplugin__addresResultList ul li:nth-child(1){
+	border-top: 1px solid #03A9F4;
+}
+.addresplugin__addresResultList ul li:hover {
+	background: #e0f0f7;
+}
