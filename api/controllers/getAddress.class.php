@@ -2,7 +2,7 @@
 
 class getAddress
 {
-	private $KEY = 'AIzaSyAmOKz_5rJHIr_KRrSCHzAHHBj43h07AJU';
+	private $KEY = '';
 	private $url = 'https://maps.googleapis.com/maps/api/place/autocomplete/json';
 
 	function __construct( )
@@ -55,7 +55,7 @@ class getAddress
 	}
 	private function log( Array $data )
 	{
-		$mysqli = new mysqli('localhost', 'ivbakiu6_marinad', 'ZRiFN2e&', 'ivbakiu6_marinad');
+		$mysqli = new mysqli('localhost', '', '', '');
 
 		if ( $mysqli->connect_errno )
 		    return false;
